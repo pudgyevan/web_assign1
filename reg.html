@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration form</title>
+</head>
+<body>
+  <h1>註冊</h1>
+  <h6>*為必填</h6>
+ <p>
+  <label for="name">*姓名</label>
+  <input type="text" maxlength="10" required>
+<br>
+   
+   <label for="college">*學院</label>
+  <select name="college" required >
+    <option value="lib">文學院</option>
+    <option value="sci">理學院</option>
+    <option value="soc">社會科學學院</option>
+    <option value="for">外國語文學院</option>
+    <option value="com">商學院</option>
+    <option value="int">國際事務學院</option>
+    <option value="comm">傳播學院</option>
+    <option value="edu">教育學院</option>
+    <option value="law">法學院</option>
+    </select>
+<br> 
+    
+   <label for="phonenumber">*手機號碼</label>
+     <input type="text" maxlength="10" pattern="[0~9]" required>
+ <br> 
+    
+   <label for="email">*信箱</label>
+     <input type="email" required>
+    <br>
+   
+   <label for="birthday">生日</label>
+     <input type="text" placeholder="1996/02/11" pattern="[0~9]">
+    <br> 
+   
+   <input type="submit" value="線上報名">
+   
+   
+</p>
+</body>
+</html>
